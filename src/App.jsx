@@ -11,7 +11,6 @@ function App() {
   return (
    <div className="w-full h-full">
     {status !== "done" ? <Landing /> : <Game />}
-    {/* <Game /> */}
     <LoadingScreen />
    </div>
   );
